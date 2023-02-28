@@ -11,8 +11,8 @@ const User = () => {
       <UserHeader />
       <Routes>
         <Route path="/" element={<Feed />} />
-        <Route path="postar" element={<UserPhotoPost />} />
-        <Route path="estatisticas" element={<UserStats />} />
+        <Route path="conta/postar" element={<UserPhotoPost />} />
+        <Route path="conta/estatisticas" element={<UserStats />} />
       </Routes>
     </section>
   );

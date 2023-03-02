@@ -10,7 +10,7 @@ const User = () => {
     <section className="container">
       <UserHeader />
       <Routes>
-        <Route path="/" element={<Feed />} />
+        <Route path="conta/" element={<Feed />} />
         <Route path="conta/postar" element={<UserPhotoPost />} />
         <Route path="conta/estatisticas" element={<UserStats />} />
       </Routes>
